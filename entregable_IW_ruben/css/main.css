@@ -1,0 +1,8 @@
+html {
+    box-sizing: border-box;
+    font-size:62.5%; /*1 rem son 10px*/
+}
+.titulo {
+    font-size: 8rem;
+    text-align: center;
+}
