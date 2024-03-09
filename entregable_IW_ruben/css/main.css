@@ -2,7 +2,30 @@ html {
     box-sizing: border-box;
     font-size:62.5%; /*1 rem son 10px*/
 }
+.estilo-login{
+    background: linear-gradient(to right, rgb(17, 15, 74) 0%, rgb(56, 77, 138) 100%);
+}
 .titulo {
-    font-size: 8rem;
+    font-size: 6rem;
     text-align: center;
+}
+
+.imagen-login{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    animation: backwards 1s cubic-bezier(0, 0, 0, 1.39) both;
+    background: left / cover no-repeat linear-gradient(to right, rgb(56, 77, 138) 0%, rgba(17, 15, 74, 0.6) 100%), left / cover no-repeat url(../images/ariz.jpg);
+
+    height: 25rem;
+}
+.main-login{
+    color: rgb(255, 255, 255);
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+.formularios-logins{
+    text-align: center;
+    font-size: 3rem;
 }
