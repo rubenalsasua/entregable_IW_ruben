@@ -15,7 +15,7 @@ html {
     text-align: center;
 }
 .fondo{
-    background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(135, 158, 226) 100%);
+    background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(110, 114, 126) 100%);
 }
 .btn{
     background-color: #ffffff;
@@ -29,6 +29,18 @@ html {
 .btn:hover{
     background-color: #1a579c;
 }
+.cont-navegacion-todas{
+    font-size: 4rem;
+    border-top: 0.1rem solid #000000;
+    
+}
+.nav-todas{
+    color: #5b626a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
 
 /*LOGIN*/
 
@@ -38,7 +50,7 @@ html {
     background-position: center center;
     animation: backwards 1s cubic-bezier(0, 0, 0, 1.39) both;
     background: left / cover no-repeat linear-gradient(to right, 
-    rgb(135, 158, 226) 0%, rgba(255, 255, 255, 0.432) 50%), 
+    rgb(110, 114, 126) 0%, rgba(255, 255, 255, 0.432) 50%), 
     left / cover no-repeat url(../images/login.jpg);
     height: 25rem;
 }
