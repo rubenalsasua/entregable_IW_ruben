@@ -23,65 +23,73 @@
             </nav>
         </div>
         <main>
-        <h1 class="h2">Nuevo Proyecto</h1>
-        <div class="nuevop">
-            <h3>Titulo</h3>
-            <p>Escribe un titulo </p>
-            <form class="form-nuevoP" action="#" method="get">
-                <label for="campo-usuario"> </label>
-                <input id="campo-usuario" type="text">
-            </form>
-            <h3>Descripción</h3>
-            <p>Describe brevemente el proyecto </p>
-            <form class="form-nuevoP" action="#" method="get">
-                <label for="campo-contraseña"> </label>
-                <input id="campo-contraseña" type="text">
-            </form>
-            <h3>Jefe/a de proyecto</h3>
-            <p>Escribe el nombre y apellidos de la persona encargada de
-                gestionar el proyecto </p>
-            <form class="form-nuevoP" action="#" method="get">
-                <label for="campo-usuario"> </label>
-                <input id="campo-usuario" type="text">
-            </form>
-            <h3>Tipo de proyecto</h3>
-            <p>Selecciona interno en caso de un proyecto para AriznavarraTech, y
-                externo en caso de uno para otra empresa </p>
-            <form class="form-nuevoP">
-                <input type="radio" name="tipo" id="interno">Interno
-                <input type="radio" name="tipo" id="externo">Externo
-            </form>
-            <h3>Empresa solicitante </h3>
-            <p>Escribe el nombre de la empresa que solicita servicios a la
-                nuestra </p>
-            <form class="form-nuevoP" action="#" method="get">
-                <label for="campo-usuario"> </label>
-                <input id="campo-usuario" type="text" placeholder="Déjalo en blanco en caso de proyecto interno">
-            </form>
-            <h3>Fecha de inicio </h3>
-            <p> </p>
-            <form class="form-nuevoP" action="#" method="get">
-                <label for="campo-usuario"> </label>
-                <input id="campo-usuario" type="date">
-            </form>
-            <h3>Fecha de finalización </h3>
-            <p> </p>
-            <form class="form-nuevoP" action="#" method="get">
-                <label for="campo-usuario"> </label>
-                <input id="campo-usuario" type="date">
-            </form>
-            <a class="btn" href="proyectos.html">Guardar</a>
-            <a class="btn" href="#">Cancelar</a>
-        </div>
+            <h1 class="h2">Nuevo Proyecto</h1>
+            <div class="nuevop">
+                <h3>Titulo</h3>
+                <p>Escribe un titulo </p>
+                <form class="form-nuevoP" action="#" method="get">
+                    <label for="titulo"> </label>
+                    <input class="form" id="titulo" type="text">
+                </form>
+                <h3>Descripción</h3>
+                <p>Describe brevemente el proyecto </p>
+                <form class="form-nuevoP" action="#" method="get">
+                    <label for="desc"> </label>
+                    <input class="form" id="desc" type="text">
+                </form>
+                <h3>Jefe/a de proyecto</h3>
+                <p>Escribe el nombre y apellidos de la persona encargada de
+                    gestionar el proyecto </p>
+                <form class="form-nuevoP" action="#" method="get">
+                    <label for="jefe"> </label>
+                    <input class="form" id="jefe" type="text">
+                </form>
+                <h3>Tipo de proyecto</h3>
+                <p>Selecciona interno en caso de un proyecto para
+                    AriznavarraTech, y
+                    externo en caso de uno para otra empresa </p>
+                <form>
+                    <input class="radio" type="radio" name="tipo"
+                        id="interno">Interno
+                    <input class="radio" type="radio" name="tipo"
+                        id="externo">Externo
+                </form>
+                <h3>Empresa solicitante </h3>
+                <p>Escribe el nombre de la empresa que solicita servicios a la
+                    nuestra </p>
+                <form class="form-nuevoP" action="#" method="get">
+                    <label for="n"> </label>
+                    <input class="form" id="n" type="text"
+                        placeholder="Déjalo en blanco en caso de proyecto interno">
+                </form>
+                <h3>Fecha de inicio </h3>
+                <p> </p>
+                <form class="form-nuevoP" action="#" method="get">
+                    <label for="ini"> </label>
+                    <input class="form" id="ini" type="date">
+                </form>
+                <h3>Fecha de finalización </h3>
+                <p> </p>
+                <form class="form-nuevoP" action="#" method="get">
+                    <label for="fin"> </label>
+                    <input class="form" id="fin" type="date">
+                </form>
+                <a class="btn" href="proyectos.html">Guardar</a>
+                <a class="btn" href="#">Cancelar</a>
+            </div>
         </main>
     </body>
     <footer class="estilo-footer">
-        <div class>
-            <p>Solicitar asistencia</p>
-            <p>Contactar con ariznavarrahr@ariztech.es</p>
-            <h2>AriznavarraTech® Todos los derechos reservados</h2>
-
+        <div class="contenedor-footer">
+            <p class="casiboton"><strong>Solicitar asistencia</strong></p>
         </div>
-
+        <div class="contenedor-footer">
+            <h2 class="casiboton"><strong>AriznavarraTech® Todos los derechos
+                    reservados</strong></h2>
+        </div>
+        <div class="contenedor-footer">
+            <p class="casiboton"><strong>Contactar con
+                    ariznavarrahr@ariztech.es</strong></p>
+        </div>
     </footer>
 </html>
